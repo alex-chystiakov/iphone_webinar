@@ -225,3 +225,53 @@ body {
         max-width: 100%;
     }
 }
+
+@media (max-width: 1100px) {
+    .color-list {
+        flex-wrap: wrap;
+    }
+
+    .color-item {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 940px) {
+    .images-new {
+        display: none;
+    }
+
+    .new-text p,
+    .new-text b {
+        max-width: 100%;
+        margin: 0 0 30px;
+    }
+}
+
+@media (max-width: 560px) {
+    .title {
+        font-size: 34px;
+        line-height: 42;
+    }
+
+    .new-title,
+    .color-title {
+        font-size: 28px;
+        line-height: 32;
+    }
+
+    .headline-btn {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 16px 90px;
+    }
+
+    .color-item {
+        width: 100%;
+    }
+
+    .color-item img {
+        width: 100%;
+    }
+}

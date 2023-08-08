@@ -411,6 +411,18 @@ body {
     }
 }
 
+@media (max-width: 420px) {
+    .phone {
+        flex-basis: auto;
+        margin-top: 50px;
+        order: 3;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+    }
+}
+
 @media (max-width: 375px) {
     .contacts-form {
         padding: 50px 10px;
